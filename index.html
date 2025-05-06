@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bus Ticket</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script> 
+    <!-- <img src="C:\Users\yamini\OneDrive\Desktop\MP1\images\Bus.png"> -->
+</head>
+<body>
+    <!--Header and Menu Section-->
+    <header class="container">
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="About.html">About Us</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+                <li><a href="Signup.html">Sign Up</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--Booking Section-->
+    <main class="main-content container">
+        <div class="booking-content">
+            <h1>BOOK RIDE</h1>
+           <!--<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>-->
+        </div>
+        <div id="booking-form" class="booking-form">
+            <h3>Explore By Bus</h3>
+            <div class="inputs">
+                <div class="input-group">
+                    <label" for="">From</label>
+                    <input class="inp-style" type="text" name="" placeholder="Enter city">
+                </div>
+                <div class="input-group">
+                    <label" for="">To</label>
+                    <input class="inp-style" type="text" name="" placeholder="Enter city">
+                </div>
+            </div>
+            <div class="inputs">
+                <div class="input-group">
+                    <label" for="">Departure</label>
+                    <input class="inp-style" type="date" name="">
+                </div>
+                <div class="input-group">
+                    <label for="">Return</label>
+                    <input class="inp-style" type="date" name="">
+                </div>
+            </div>
+            <div class="inputs">
+                <div class="input-group f-class">
+                <div class="plus-minus-btn">
+                     <p id="first-class-decrease">-</p>
+                </div>
+                <div>
+                    <label for="">First Class (&#8377;150)</label>
+                    <input id="first-class-input" class="inp-style inp-width" type="number" name="" value="1">
+                </div>
+                <div class="plus-minus-btn">
+                    <p id="first-class-increase">+</p>
+                </div>
+            </div>
+                <div class="input-group f-class">
+                    <div class="plus-minus-btn">
+                        <p id="economy-class-decrease">-</p>
+                    </div>
+                    <div>
+                        <label for="">Economy (&#8377;100)</label>
+                        <input id="economy-class-input" class="inp-style inp-width" type="number" name="" value="1">
+                    </div>
+                    <div class="plus-minus-btn">
+                        <p id="economy-class-increase"> <span>+</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="calculations">
+                <div class="amount">
+                    <div class="left">
+                        <p>Subtotal</p>
+                    </div>
+                    <div class="right">
+                        <p id="ticket-price">&#8377;250</p>
+                    </div>
+                </div>
+                <div class="amount">
+                    <div class="left">
+                        <p>Charge 10% VAT</p>
+                    </div>
+                    <div class="right">
+                        <p id="vat-amount">&#8377;25</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="amount">
+                    <div class="left">
+                        <h4>Total</h4>
+                    </div>
+                    <div class="right">
+                        <p id="grand-total">&#8377;275</p>
+                    </div>
+                </div>
+            </div>
+            <button id="book-now-btn" class="btn-style">Book Now</button>
+        </div>
+        <div id="new-booking-area" class="booking-form">
+            <h3>Bus Ticket Booking Confirmation</h3>
+            <p id="first-class-quantity"></p>
+            <p id="first-class-ticket-price"></p>
+            <p id="economy-class-quantity"></p>
+            <p id="economy-class-ticket-price"></p>
+            <p id="total-price"></p>
+            <p id="grand-price"></p>
+            <p>Happy Journey ✌️</p>
+        </div>
+    </main>
+    <script src="./main.js"></script>
+    <!--Thank You-->
+</body>
+</html>
