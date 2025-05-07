@@ -1,1 +1,28 @@
+🚌 Bus Ticket Booking App
+A simple and user-friendly Bus Ticket Booking App that allows users to search, book, and manage bus tickets easily. This project is designed to streamline the ticket booking process, offering a smooth experience for both users and bus operators.
 
+✨ Features
+✅ Search for available buses by date, source, and destination
+✅ View booked tickets
+✅ User authentication (sign up, log in, log out)
+✅ Admin panel to manage buses, routes, and bookings
+
+💻 Tech Stack
+Frontend: HTML , CSS
+
+Backend: JS(JavaScript)
+
+📱 Screens / Modules
+Login / Sign Up
+
+Bus Search
+
+Bus List & Details
+
+Seat Selection
+
+Booking Confirmation
+
+Payment (optional)
+
+My Bookings / Tickets
